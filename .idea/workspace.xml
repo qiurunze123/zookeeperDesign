@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe16fa44-aeb9-4109-ad7b-48fceb126465" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/DataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,30 +28,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="573" />
+          <entry key="java" value="806" />
+          <entry key="md" value="43" />
           <entry key="properties" value="1" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="573" />
+          <entry key="JAVA" value="806" />
+          <entry key="Markdown" value="43" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="2" />
+          <entry key="class" value="3" />
+          <entry key="java" value="3" />
+          <entry key="md" value="1" />
           <entry key="properties" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="2" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="3" />
+          <entry key="Markdown" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -83,14 +91,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/DataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="378">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="231">
+                <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/remoting/zookeeper/zkclient/ZkclientZookeeperClient.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/remoting/zookeeper/ZookeeperClient.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -132,6 +179,8 @@
         <option value="$PROJECT_DIR$/zkdesign-client/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/DataTest.java" />
+        <option value="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -206,6 +255,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zkdesign" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="geekQ-zkdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekQ-zkdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="zkdesign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zkdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578099286865" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578122986761" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -225,9 +285,12 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zkdesign.zookeeper" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\zkstudy\geekQ-zkdesign\zkdesign-client\src\main\resources" />
       <recent name="D:\zkstudy\geekQ-zkdesign" />
+      <recent name="D:\zkstudy\geekQ-zkdesign\zkdesign-client\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DataTest.getChild">
+  <component name="RunManager" selected="JUnit.ZkclientTest.createTest">
     <configuration name="DataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zkdesign-client" />
       <extension name="coverage">
@@ -273,7 +336,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTest.getData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataTest.getChild2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zkdesign-client" />
       <extension name="coverage">
         <pattern>
@@ -283,13 +346,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zkdesign.zookeeper" />
       <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.DataTest" />
-      <option name="METHOD_NAME" value="getData" />
+      <option name="METHOD_NAME" value="getChild2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTest.getDataWatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataTest.getData4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zkdesign-client" />
       <extension name="coverage">
         <pattern>
@@ -299,13 +362,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zkdesign.zookeeper" />
       <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.DataTest" />
-      <option name="METHOD_NAME" value="getDataWatch" />
+      <option name="METHOD_NAME" value="getData4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTest.getDataWatchKeepLive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZkclientTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zkdesign-client" />
       <extension name="coverage">
         <pattern>
@@ -314,27 +377,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zkdesign.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.DataTest" />
-      <option name="METHOD_NAME" value="getDataWatchKeepLive" />
+      <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.ZkclientTest" />
+      <option name="METHOD_NAME" value="createTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DataTest.getData" />
-      <item itemvalue="JUnit.DataTest.getDataWatch" />
-      <item itemvalue="JUnit.DataTest.getDataWatchKeepLive" />
       <item itemvalue="JUnit.DataTest" />
       <item itemvalue="JUnit.DataTest.getChild" />
+      <item itemvalue="JUnit.DataTest.getData4" />
+      <item itemvalue="JUnit.DataTest.getChild2" />
+      <item itemvalue="JUnit.ZkclientTest.createTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZkclientTest.createTest" />
+        <item itemvalue="JUnit.DataTest.getChild2" />
+        <item itemvalue="JUnit.DataTest.getData4" />
         <item itemvalue="JUnit.DataTest.getChild" />
         <item itemvalue="JUnit.DataTest" />
-        <item itemvalue="JUnit.DataTest.getDataWatchKeepLive" />
-        <item itemvalue="JUnit.DataTest.getDataWatch" />
-        <item itemvalue="JUnit.DataTest.getData" />
       </list>
     </recent_temporary>
   </component>
@@ -348,17 +411,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578038068711</updated>
-      <workItem from="1578038078130" duration="4442000" />
+      <workItem from="1578038078130" duration="7606000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataTest_getData - 2020.01.03 at 19h 00m 25s.xml">
-      <configuration name="DataTest.getData" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataTest_getDataWatch - 2020.01.03 at 19h 04m 38s.xml">
-      <configuration name="DataTest.getDataWatch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DataTest_getDataWatch - 2020.01.03 at 19h 04m 40s.xml">
       <configuration name="DataTest.getDataWatch" configurationId="JUnit" />
     </history-entry>
@@ -374,23 +431,39 @@
     <history-entry file="DataTest_getChild - 2020.01.03 at 19h 25m 55s.xml">
       <configuration name="DataTest.getChild" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DataTest_getData4 - 2020.01.04 at 10h 06m 52s.xml">
+      <configuration name="DataTest.getData4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZkclientTest_createTest - 2020.01.04 at 10h 30m 11s.xml">
+      <configuration name="ZkclientTest.createTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataTest_getChild2 - 2020.01.04 at 10h 30m 29s.xml">
+      <configuration name="DataTest.getChild2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZkclientTest_createTest - 2020.01.04 at 10h 30m 29s.xml">
+      <configuration name="ZkclientTest.createTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZkclientTest_createTest - 2020.01.04 at 10h 32m 15s.xml">
+      <configuration name="ZkclientTest.createTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4442000" />
+    <option name="totallyTimeSpent" value="7606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-17" y="18" width="1934" height="1042" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32930845" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
@@ -399,8 +472,8 @@
       <window_info anchor="bottom" id="LuaCheck" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46212953" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19209659" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45005488" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25686058" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -420,6 +493,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zookeeper-client/src/main/java/com/tuling/zookeeper/AclTest.java">
@@ -462,11 +547,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/DataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="378">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/remoting/zookeeper/ZookeeperClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/remoting/zookeeper/zkclient/ZkclientZookeeperClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="231">
+            <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
