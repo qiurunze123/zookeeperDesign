@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe16fa44-aeb9-4109-ad7b-48fceb126465" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/zkbase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zkprocess.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/zkbase.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/zkbase.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578122986761" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../threadandjuc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -43,6 +50,7 @@
       <recent name="com.zkdesign.zookeeper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\面试基础\zookeeperDesign\docs" />
       <recent name="D:\zkstudy\geekQ-zkdesign" />
       <recent name="D:\zkstudy\geekQ-zkdesign\zkdesign-client\src\main\resources" />
     </key>
@@ -167,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578038068711</updated>
       <workItem from="1578038078130" duration="7606000" />
-      <workItem from="1578123622582" duration="718000" />
+      <workItem from="1578123622582" duration="4927000" />
     </task>
     <servers />
   </component>

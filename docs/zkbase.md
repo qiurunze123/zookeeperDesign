@@ -1,38 +1,51 @@
 **zk基础说明**
-| --- | ---   | :--- |
- | 000 |zk的特性 | [解决思路](/docs/zkbase.md) |
- | 001 |zk的一些节点说明 | [解决思路](/docs/zkbase.md) |
-1.  zookeeper概要、背景及作用
-2. 部署与常规配置
-3. 节点类型
 
 
-## 一、zookeeper概要、背景及作用
+ | ID | Problem  |
+ | --- | ---   | 
+ | 000 |zk概要 | 
+ | 001 |zk的产生背景 |
+ | 002 |zk的作用 |
+ | 003 |zk的常规使用与常规的配置文件说明 |
+ | 004 |zk的节点类型 |
+ | 005 |zk的客户端的一些命令操作 |
 
----
-### **zookeeper产生背景：**
-项目从单体到分布式转变之后，将会产生多个节点之间协同的问题。如：
-1. 每天的定时任务由谁哪个节点来执行？
-2. RPC调用时的服务发现?
-3. 如何保证并发请求的幂等
-4. ....
+ 
+### **zookeeper概要**
+ZooKeeper是用于分布式应用程序的协调服务。它公开了一组简单的API，
+分布式应用程序可以基于这些API用于同步，节点状态、配置等信息、服务注册等信息。其由JAVA编写，支持JAVA 和C两种语言的客户端。
+![图片](https://raw.githubusercontent.com/qiurunze123/imageall/master/zk1.png)
 
-这些问题可以统一归纳为多节点协调问题，如果靠节点自身进行协调这是非常不可靠的，性能上也不可取。必须由一个独立的服务做协调工作，它必须可靠，而且保证性能。
 
-### **zookeeper概要：**
-ZooKeeper是用于分布式应用程序的协调服务。它公开了一组简单的API，分布式应用程序可以基于这些API用于同步，节点状态、配置等信息、服务注册等信息。其由JAVA编写，支持JAVA 和C两种语言的客户端。
-![图片](https://uploader.shimo.im/f/Q3T3PRV6bLkeFIMf.png!thumbnail)
+### **zookeeper产生背景**
+随着互联网时代的发展项目已经从单点项目到现在的分布式项目，部署在多个服务器上随着而来产生多个节点之间的协同问题
+
+    1. 各个项目之间的RPC调用如何进行服务发现
+    2. 如何保证任务在那个节点执行
+    3. 如何保证并发请求的幂等
+    4. 如何保证容错...
+
+这些问题可以统一归纳为多节点协调问题，如果靠节点自身进行协调这是非常不可靠的，性能上也不可取。
+必须由一个独立的服务做协调工作，它必须可靠，而且保证性能。
+
+### **zookeeper的作用**
+
+    1.数据发布与订阅（配置中心）
+    2.负载均衡
+    3.命名服务(Naming Service)
+    4.分布式通知/协调
+    5.集群管理与Master选举
+    6.分布式锁
+    7.分布式队列 ... 在分布式项目中作用巨大
 
 ### **znode 节点**
 zookeeper 中数据基本单元叫节点，节点之下可包含子节点，最后以树级方式程现。每个节点拥有唯一的路径path。客户端基于PATH上传节点数据，zookeeper 收到后会实时通知对该路径进行监听的客户端。
 
-![图片](https://uploader.shimo.im/f/vmq8ZNmrsWk7v199.png!thumbnail)
+![图片](https://raw.githubusercontent.com/qiurunze123/imageall/master/zk2.png)
 
-## 二、部署与常规配置
+zookeeper 基于JAVA开发，下载后只要有对应JVM环境即可运行。其默认的端口号是2181运行前得保证其不冲突
 
----
-zookeeper 基于JAVA开发，下载后只要有对应JVM环境即可运行。其默认的端口号是2181运行前得保证其不冲突。
-### **版本说明：**
+### **版本说明**
 2019年5月20日发行的3.5.5是3.5分支的第一个稳定版本。此版本被认为是3.4稳定分支的后续版本，可以用于生产。基于3.4它包含以下新功能
 * 动态重新配置
 * 本地会议
@@ -60,9 +73,11 @@ cd  {zookeeper_home}/conf
 cp zoo_sample.cfg zoo.cfg
 #启动
  {zookeeper_home}/bin/zkServer.sh
+
+ ./bin/zkServer.sh start
 ```
 
-### **常规配置文件说明：**
+### **常规配置文件说明**
 ```
 # zookeeper时间配置中的基本单位 (毫秒)
 tickTime=2000
@@ -83,64 +98,64 @@ autopurge.purgeInterval=1
 ```
 ### **客户端命令：**
 **基本命令列表**
- **close **
+```
+ 1.close
  关闭当前会话
-**connect host:port **
-重新连接指定Zookeeper服务
-**create [-s] [-e] [-c] [-t ttl] path [data] [acl]**
-创建节点
-**delete [-v version] path**
-删除节点，(不能存在子节点）
-**deleteall path**
+ 2.connect host:port 
+ 重新连接指定Zookeeper服务
+ create [-s] [-e] [-c] [-t ttl] path [data] [acl]
+ 3.创建节点
+ delete [-v version] path
+ 删除节点，(不能存在子节点）
+ 4.deleteall path
  删除路径及所有子节点
-**setquota -n|-b val path**
+ 5.setquota -n|-b val path
 设置节点限额 -n 子节点数 -b 字节数
- **listquota path**
+ 6.listquota path
 查看节点限额
-**delquota [-n|-b] path**
-删除节点限额
- **get [-s] [-w] path**
-查看节点数据 -s 包含节点状态 -w 添加监听 
-getAcl [-s] path
-**ls [-s] [-w] [-R] path**
-列出子节点 -s状态 -R 递归查看所有子节点 -w 添加监听
-**printwatches on|off**
-是否打印监听事件
-**quit **
-退出客户端
- **history **
-查看执行的历史记录
-**redo cmdno**
-重复 执行命令，history 中命令编号确定
-removewatches path [-c|-d|-a] [-l]
-**删除指定监听**
-set [-s] [-v version] path data
-**设置值**
-**setAcl [-s] [-v version] [-R] path acl**
-为节点设置ACL权限
-**stat [-w] path**
-查看节点状态 -w 添加监听
-**sync path**
-强制同步节点
-
+ 7.delquota [-n|-b] path
+ 删除节点限额
+ 8.get [-s] [-w] path
+ 查看节点数据 -s 包含节点状态 -w 添加监听 
+ getAcl [-s] path
+ 9.ls [-s] [-w] [-R] path
+ 列出子节点 -s状态 -R 递归查看所有子节点 -w 添加监听
+ 10.printwatches on|off**
+ 是否打印监听事件
+ 11.quit 
+ 退出客户端
+ 12.history 
+ 查看执行的历史记录
+ 13.redo cmdno
+ 重复 执行命令，history 中命令编号确定
+ 14.removewatches path [-c|-d|-a] [-l]
+ 删除指定监听
+ 15.set [-s] [-v version] path data
+ 设置值
+ 16.setAcl [-s] [-v version] [-R] path acl
+ 为节点设置ACL权限
+ 17.stat [-w] path
+ 查看节点状态 -w 添加监听
+ 18.sync path
+  强制同步节点
+```
 **node数据的增删改查**
 ```
 # 列出子节点 
 ls /
 #创建节点
-create /luban "luban is good man"
+create /qiurunze "qiurunze is good man"
 # 查看节点
-get /luban
+get /qiurunze
 # 创建子节点 
-create /luban/sex "man"
+create /qiurunze/sex "man"
 # 删除节点
-delete /luban/sex
+delete /qiurunze/sex
 # 删除所有节点 包括子节点
-deleteall /luban
+deleteall /qiurunze
 ```
 
 ## 三、Zookeeper节点介绍
-
 ---
 ### **知识点：**
 1. 节点类型
@@ -200,7 +215,7 @@ create -e -s /temp/seq
 ### **节点属性**
 ```
 # 查看节点属性
-stat /luban
+stat /qiurunze
 ```
 
 其属性说明如下表：
@@ -312,29 +327,29 @@ echo -n <用户名>:<密码> | openssl dgst -binary -sha1 | openssl base64
 1. 设置digest 权限
 ```
 #先 sha1 加密，然后base64加密
-echo -n luban:123456 | openssl dgst -binary -sha1 | openssl base64
+echo -n qiurunze:123456 | openssl dgst -binary -sha1 | openssl base64
 #返回密钥
 2Rz3ZtRZEs5RILjmwuXW/wT13Tk=
 #设置digest权限
-setAcl /luban digest:luban:2Rz3ZtRZEs5RILjmwuXW/wT13Tk=:cdrw
+setAcl /qiurunze digest:qiurunze:2Rz3ZtRZEs5RILjmwuXW/wT13Tk=:cdrw
 ```
 
 1. 查看节点将显示没有权限
 ```
 #查看节点
-get /luban
+get /qiurunze
 #显示没有权限访问
-org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /luban
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /qiurunze
 ```
 
 1. 给当前会话添加认证后在次查看
 ```
 #给当前会话添加权限帐户
-addauth digest luban:123456
+addauth digest qiurunze:123456
 #在次查看
-get /luban
+get /qiurunze
 #获得返回结果
-luban is good man
+qiurunze is good man
 ```
 
 ACL的特殊说明：
