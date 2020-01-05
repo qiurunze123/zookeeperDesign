@@ -12,6 +12,10 @@
 
  
 ### **zookeeper概要**
+
+Zookeeper是一个分布式数据一致性的解决方案，分布式应用可以基于它实现诸如数据发布/订阅，负载均衡，命名服务，分布式协调/通知，集群管理，Master选举，
+分布式锁和分布式队列等功能。Zookeeper致力于提供一个高性能、高可用、且具有严格的顺序访问控制能力的分布式协调系统
+
 ZooKeeper是用于分布式应用程序的协调服务。它公开了一组简单的API，
 分布式应用程序可以基于这些API用于同步，节点状态、配置等信息、服务注册等信息。其由JAVA编写，支持JAVA 和C两种语言的客户端。
 ![图片](https://raw.githubusercontent.com/qiurunze123/imageall/master/zk1.png)
