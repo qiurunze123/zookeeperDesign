@@ -2,15 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe16fa44-aeb9-4109-ad7b-48fceb126465" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/zkdesign-dubboexample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-hardcode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-hardcode/src/main/java/com/zkdesign/zookeeper/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-hardcode/src/main/java/com/zkdesign/zookeeper/CPUMonitorCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-hardcode/src/main/java/com/zkdesign/zookeeper/MonitorAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-hardcode/src/main/java/com/zkdesign/zookeeper/OsBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-hardcode/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-hardcode/src/test/java/AgentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-masterjob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-masterjob/src/main/java/com/zkdesign/zookeeper/MasterResolve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-masterjob/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-masterjob/src/test/java/MasterResolveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-web/src/main/java/com/zkdesign/zookeeper/MainControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkdesign-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/zkbase.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/zkbase.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/zkprocess.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/zkprocess.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/DataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/ZkclientTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/ZkclientTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/ZkclientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/ZkclientTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578122986761" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zkdesign-masterjob/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,13 +83,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.zkdesign.zookeeper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\面试基础\zookeeperDesign\docs" />
-      <recent name="D:\zkstudy\geekQ-zkdesign" />
-      <recent name="D:\zkstudy\geekQ-zkdesign\zkdesign-client\src\main\resources" />
+      <recent name="E:\面试基础\zookeeperDesign\zkdesign-masterjob\src\main\resources" />
+      <recent name="E:\面试基础\zookeeperDesign\zkdesign-web\src\main\resources" />
+      <recent name="E:\面试基础\zookeeperDesign\zkdesign-dubboexample\src\main\java\com\zkdesign\zookeeper" />
+      <recent name="E:\面试基础\zookeeperDesign\zkdesign-hardcode\src\main\resources" />
+      <recent name="E:\面试基础\zookeeperDesign\zkdesign-hardcode\src\main\java\com\zkdesign\zookeeper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,23 +110,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ZkclientTest.createTest">
-    <configuration name="DataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zkdesign-client" />
+  <component name="RunManager" selected="JUnit.MasterResolveTest.MasterTest">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.Client" />
+      <module name="zkdesign-dubboexample" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zkdesign.zookeeper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zkdesign.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.DataTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTest.getChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.Server" />
+      <module name="zkdesign-dubboexample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zkdesign.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTest.getData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zkdesign-client" />
       <extension name="coverage">
         <pattern>
@@ -91,39 +147,17 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zkdesign.zookeeper" />
       <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.DataTest" />
-      <option name="METHOD_NAME" value="getChild" />
+      <option name="METHOD_NAME" value="getData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTest.getChild2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zkdesign-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zkdesign.zookeeper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zkdesign.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.DataTest" />
-      <option name="METHOD_NAME" value="getChild2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataTest.getData4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zkdesign-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zkdesign.zookeeper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zkdesign.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.zkdesign.zookeeper.DataTest" />
-      <option name="METHOD_NAME" value="getData4" />
+    <configuration name="MasterResolveTest.MasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zkdesign-masterjob" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MasterResolveTest" />
+      <option name="METHOD_NAME" value="MasterTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DataTest" />
-      <item itemvalue="JUnit.DataTest.getChild" />
-      <item itemvalue="JUnit.DataTest.getData4" />
-      <item itemvalue="JUnit.DataTest.getChild2" />
       <item itemvalue="JUnit.ZkclientTest.createTest" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="JUnit.MasterResolveTest.MasterTest" />
+      <item itemvalue="JUnit.DataTest.getData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MasterResolveTest.MasterTest" />
+        <item itemvalue="JUnit.DataTest.getData" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.ZkclientTest.createTest" />
-        <item itemvalue="JUnit.DataTest.getChild2" />
-        <item itemvalue="JUnit.DataTest.getData4" />
-        <item itemvalue="JUnit.DataTest.getChild" />
-        <item itemvalue="JUnit.DataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,40 +208,9 @@
       <updated>1578038068711</updated>
       <workItem from="1578038078130" duration="7606000" />
       <workItem from="1578123622582" duration="7018000" />
+      <workItem from="1578184122292" duration="6819000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="DataTest_getDataWatch - 2020.01.03 at 19h 04m 40s.xml">
-      <configuration name="DataTest.getDataWatch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataTest_getDataWatchKeepLive - 2020.01.03 at 19h 23m 23s.xml">
-      <configuration name="DataTest.getDataWatchKeepLive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataTest - 2020.01.03 at 19h 24m 49s.xml">
-      <configuration name="DataTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataTest - 2020.01.03 at 19h 25m 35s.xml">
-      <configuration name="DataTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataTest_getChild - 2020.01.03 at 19h 25m 55s.xml">
-      <configuration name="DataTest.getChild" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataTest_getData4 - 2020.01.04 at 10h 06m 52s.xml">
-      <configuration name="DataTest.getData4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZkclientTest_createTest - 2020.01.04 at 10h 30m 11s.xml">
-      <configuration name="ZkclientTest.createTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataTest_getChild2 - 2020.01.04 at 10h 30m 29s.xml">
-      <configuration name="DataTest.getChild2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZkclientTest_createTest - 2020.01.04 at 10h 30m 29s.xml">
-      <configuration name="ZkclientTest.createTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZkclientTest_createTest - 2020.01.04 at 10h 32m 15s.xml">
-      <configuration name="ZkclientTest.createTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -217,7 +220,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -228,98 +233,10 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java</url>
-          <line>32</line>
+          <line>31</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>zkdesign-client</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.101tec:zkclient:0.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -10,7 +10,6 @@ import org.I0Itec.zkclient.ZkClient;
 import org.junit.Before;
 import org.junit.Test;
 
-import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
 
 /*** @author 邱润泽 bulloc*/
 @Slf4j

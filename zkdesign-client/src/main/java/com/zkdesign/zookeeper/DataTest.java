@@ -26,10 +26,10 @@ public class DataTest {
     @Before
     public void init() throws IOException {
         String conn = "112.126.97.242:2181";
-        zooKeeper = new ZooKeeper(conn, 4000, new Watcher() {
+        zooKeeper = new ZooKeeper(conn, 100000, new Watcher() {
             @Override
             public void process(WatchedEvent watchedEvent) {
-                log.info("i am watch u "+watchedEvent.getPath());
+//                log.info("i am watch u "+watchedEvent.getPath());
                 System.out.println(watchedEvent);
 
             }
@@ -41,8 +41,9 @@ public class DataTest {
     public void getData() throws KeeperException, InterruptedException {
 
         byte[] data = zooKeeper.getData("/qiurunze",false,null);
+        System.out.println(new String(data));
 
-        log.info(new String(data));
+//        log.info(new String(data));
     }
 
 

@@ -10,6 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>zkdesign-client</module>
+        <module>zkdesign-hardcode</module>
+        <module>zkdesign-web</module>
+        <module>zkdesign-dubboexample</module>
+        <module>zkdesign-masterjob</module>
     </modules>
     <dependencies>
         <dependency>
