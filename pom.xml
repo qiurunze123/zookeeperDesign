@@ -14,6 +14,7 @@
         <module>zkdesign-web</module>
         <module>zkdesign-dubboexample</module>
         <module>zkdesign-masterjob</module>
+        <module>zkdesign-lock</module>
     </modules>
     <dependencies>
         <dependency>

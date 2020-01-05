@@ -55,3 +55,9 @@ ZooKeeper是一个分布式的，开放源码的分布式应用程序协调服�
  | ID | Problem  | Article | 
  | --- | ---   | :--- |
  | 000 |zk的客户端如何使用并进行集群部署，选举算法，如何数据一致性等 | [解决思路](/docs/zkprocess.md) |
+ 
+#### zookeeper 客户端与集群特性
+
+ | ID | Problem  | Article | 
+ | --- | ---   | :--- |
+ | 000 |zk分布式管理与操作 | [解决思路](/docs/zkprocess2.md) |
