@@ -96,7 +96,7 @@ autopurge.snapRetainCount=3
 #自动触发清除任务时间间隔，小时为单位。默认为0，表示不自动清除。
 autopurge.purgeInterval=1
 ```
-### **客户端命令：**
+### **客户端命令**
 **基本命令列表**
 ```
  1.close

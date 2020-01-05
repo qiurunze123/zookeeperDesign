@@ -284,9 +284,9 @@
  **客户端写入请求：**
  
  写入请求的大至流程是，收leader接收客户端写请求，并同步给各个子节点。如下图：
- ![图片](https://uploader.shimo.im/f/k2Dqe4W0OCoumzf3.png!thumbnail)
+![图片](https://raw.githubusercontent.com/qiurunze123/imageall/master/zk4.png)
  但实际情况要复杂的多，比如client 它并不知道哪个节点是leader 有可能写的请求会发给follower ，由follower在转发给leader进行同步处理
- ![图片](https://uploader.shimo.im/f/zQHJd478VV8GoCaK.png!thumbnail)
+![图片](https://raw.githubusercontent.com/qiurunze123/imageall/master/zk5.png)
  
  客户端写入流程说明：
  1. client向zk中的server发送写请求，如果该server不是leader，则会将该写请求转发给leader server，leader将请求事务以proposal形式分发给follower；
@@ -297,7 +297,7 @@
  
  **服务节点初始化同步：**
  在集群运行过程当中如果有一个follower节点宕机，由于宕机节点没过半，集群仍然能正常服务。当leader 收到新的客户端请求，此时无法同步给宕机的节点。造成数据不一至。为了解决这个问题，当节点启动时，第一件事情就是找当前的Leader，比对数据是否一至。不一至则开始同步,同步完成之后在进行对外提供服务。
- 如何比对Leader的数据版本呢，这里通过ZXID事物ID来确认。比Leader就需要同步。
+ 如何比对Leader的数据版本呢，这里通过ZXID事物ID来确认。比Leader小就需要同步。
  **ZXID说明：**
  ZXID是一个长度64位的数字，其中低32位是按照数字递增，任何数据的变更都会导致,低32位的数字简单加1。高32位是leader周期编号，每当选举出一个新的leader时，新的leader就从本地事物日志中取出ZXID,然后解析出高32位的周期编号，进行加1，再将低32位的全部设置为0。这样就保证了每次新选举的leader后，保证了ZXID的唯一性而且是保证递增的。 
  

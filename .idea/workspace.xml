@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe16fa44-aeb9-4109-ad7b-48fceb126465" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/zkprocess.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/zkbase.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/zkbase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/zkprocess.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/zkprocess.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578038068711</updated>
       <workItem from="1578038078130" duration="7606000" />
-      <workItem from="1578123622582" duration="4927000" />
+      <workItem from="1578123622582" duration="7018000" />
     </task>
     <servers />
   </component>
