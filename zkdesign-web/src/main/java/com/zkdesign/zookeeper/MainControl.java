@@ -16,15 +16,14 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * @author Tommy
- * Created by Tommy on 2019/9/22
+ * @author qiurunze
  **/
 @Controller
 public class MainControl implements InitializingBean {
-    @Value("${zk:192.168.0.149:2181}")
+    @Value("${zk:112.126.97.242:2181}")
     private String server;
     private ZkClient zkClient;
-    private static final String rootPath = "/tuling-manger";
+    private static final String rootPath = "/qiurunze-manger";
     Map<String, OsBean> map = new HashMap<>();
 
     @RequestMapping("/list")

@@ -6,21 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zkdesign-hardcode" />
         <module name="zkdesign-client" />
         <module name="zkdesign-dubboexample" />
-        <module name="zkdesign-lock" />
+        <module name="zkdesign-hardcode" />
         <module name="zkdesign-masterjob" />
         <module name="zkdesign-web" />
+        <module name="zkdesign-zklock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="zkdesign-lock" target="1.5" />
       <module name="zookeeper-client" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="zkdesign-web" options="-parameters" />
+      <module name="zkdesign-web" options="" />
     </option>
   </component>
 </project>
