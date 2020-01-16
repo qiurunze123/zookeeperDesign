@@ -1,4 +1,4 @@
-![zkdesign](https://raw.githubusercontent.com/qiurunze123/imageall/master/thread100.png)
+![zkdesign](https://raw.githubusercontent.com/qiurunze123/imageall/master/zkinit.png)
 
 > 邮箱 : [QiuRunZe_key@163.com](QiuRunZe_key@163.com)
 
@@ -45,24 +45,34 @@ ZooKeeper是一个分布式的，开放源码的分布式应用程序协调服�
 
 
 #### zookeeper 基础了解
-
- | ID | Problem  | Article | 
- | --- | ---   | :--- |
- | 000 |zk的背景，产生，使用，节点类型，安装部署等 | [解决思路](/docs/zkbase.md) |
- 
 #### zookeeper 客户端与集群特性
-
- | ID | Problem  | Article | 
- | --- | ---   | :--- |
- | 000 |zk的客户端如何使用并进行集群部署，选举算法，如何数据一致性等 | [解决思路](/docs/zkprocess.md) |
- 
 #### zookeeper 分布式管理与操作
+#### zookeeper ZAB协议流程实现源码分析
 
  | ID | Problem  | Article | 
  | --- | ---   | :--- |
- | 000 |zk分布式管理与操作 | [解决思路](/docs/zkprocess2.md) |
- 
- #### zookeeper ZAB协议流程实现源码分析
- | ID | Problem  | Article | 
- | --- | ---   | :--- |
- | 000 |ZAB协议流程实现源码分析 | [解决思路](/docs/zkprocess3.md) |
+ | 000 |zk的背景 | [解决思路](/docs/zkbase.md) |
+ | 001 |zk概要 | [解决思路](/docs/zkbase.md) |
+ | 002 |zk的作用 | [解决思路](/docs/zkbase.md) |
+ | 003 |zk的常规使用与常规的配置文件说明 | [解决思路](/docs/zkbase.md) |
+ | 004 |zk的节点类型 | [解决思路](/docs/zkbase.md) |
+ | 005 |zk的客户端的一些命令操作 | [解决思路](/docs/zkbase.md) |
+ | 006 |zk权限命令 | [解决思路](/docs/zkprocess.md) |
+ | 007 |zk客户端使用 | [解决思路](/docs/zkprocess.md) |
+ | 008 |zk客户端连接参数说明 | [解决思路](/docs/zkprocess.md) |
+ | 009 |zk的客户端操作 | [解决思路](/docs/zkprocess.md) |
+ | 010 |zk客户端监听 | [解决思路](/docs/zkprocess.md) |
+ | 011 |zk集群架构说明 | [解决思路](/docs/zkprocess.md) |
+ | 012 |zk选举投票机制 | [解决思路](/docs/zkprocess.md) |
+ | 013 |zk主从复制机制 | [解决思路](/docs/zkprocess.md) |
+ | 014 |zk数据一致性| [解决思路](/docs/zkprocess.md) |
+ | 015 |分布式集群管理 | [解决思路](/docs/zkprocess2.md) |
+ | 016 |分布式注册中心 | [解决思路](/docs/zkprocess2.md) |
+ | 017 |分布式JOB | [解决思路](/docs/zkprocess2.md) |
+ | 018 |分布式锁 | [解决思路](/docs/zkprocess2.md) |
+ | 019 |什么是ZAB协议 | [解决思路](/docs/zkprocess.md) |
+ | 020 |启动流程源码分析 | [解决思路](/docs/zkprocess.md) |
+ | 021 |崩溃恢复 | [解决思路](/docs/zkprocess.md) |
+ | 022 |恢复模式的俩个原则 | [解决思路](/docs/zkprocess.md) |
+ | 023 |消息广播 | [解决思路](/docs/zkprocess3.md) |
+ | 024 |实现原理 | [解决思路](/docs/zkprocess3.md) |
