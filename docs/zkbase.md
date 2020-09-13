@@ -121,26 +121,27 @@ autopurge.purgeInterval=1
  删除节点限额
  9.get [-s] [-w] path
  查看节点数据 -s 包含节点状态 -w 添加监听 
- getAcl [-s] path
- 10.ls [-s] [-w] [-R] path
+ 10.getAcl [-s] path
+ 获取节点ACL权限
+ 11.ls [-s] [-w] [-R] path
  列出子节点 -s状态 -R 递归查看所有子节点 -w 添加监听
- 11.printwatches on|off**
+ 12.printwatches on|off**
  是否打印监听事件
- 12.quit 
+ 13.quit 
  退出客户端
- 13.history 
+ 14.history 
  查看执行的历史记录
- 14.redo cmdno
+ 15.redo cmdno
  重复 执行命令，history 中命令编号确定
- 15.removewatches path [-c|-d|-a] [-l]
+ 16.removewatches path [-c|-d|-a] [-l]
  删除指定监听
- 16.set [-s] [-v version] path data
+ 17.set [-s] [-v version] path data
  设置值
- 17.setAcl [-s] [-v version] [-R] path acl
+ 18.setAcl [-s] [-v version] [-R] path acl
  为节点设置ACL权限
- 18.stat [-w] path
+ 19.stat [-w] path
  查看节点状态 -w 添加监听
- 19.sync path
+ 20.sync path
   强制同步节点
 ```
 **node数据的增删改查**
