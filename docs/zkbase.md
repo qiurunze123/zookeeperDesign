@@ -107,40 +107,41 @@ autopurge.purgeInterval=1
  关闭当前会话
  2.connect host:port 
  重新连接指定Zookeeper服务
- create [-s] [-e] [-c] [-t ttl] path [data] [acl]
- 3.创建节点
- delete [-v version] path
+ 3.create [-s] [-e] [-c] [-t ttl] path [data] [acl]
+ 创建节点
+ 4.delete [-v version] path
  删除节点，(不能存在子节点）
- 4.deleteall path
+ 5.deleteall path
  删除路径及所有子节点
- 5.setquota -n|-b val path
+ 6.setquota -n|-b val path
 设置节点限额 -n 子节点数 -b 字节数
- 6.listquota path
+ 7.listquota path
 查看节点限额
- 7.delquota [-n|-b] path
+ 8.delquota [-n|-b] path
  删除节点限额
- 8.get [-s] [-w] path
+ 9.get [-s] [-w] path
  查看节点数据 -s 包含节点状态 -w 添加监听 
- getAcl [-s] path
- 9.ls [-s] [-w] [-R] path
+ 10.getAcl [-s] path
+ 获取节点ACL权限
+ 11.ls [-s] [-w] [-R] path
  列出子节点 -s状态 -R 递归查看所有子节点 -w 添加监听
- 10.printwatches on|off**
+ 12.printwatches on|off**
  是否打印监听事件
- 11.quit 
+ 13.quit 
  退出客户端
- 12.history 
+ 14.history 
  查看执行的历史记录
- 13.redo cmdno
+ 15.redo cmdno
  重复 执行命令，history 中命令编号确定
- 14.removewatches path [-c|-d|-a] [-l]
+ 16.removewatches path [-c|-d|-a] [-l]
  删除指定监听
- 15.set [-s] [-v version] path data
+ 17.set [-s] [-v version] path data
  设置值
- 16.setAcl [-s] [-v version] [-R] path acl
+ 18.setAcl [-s] [-v version] [-R] path acl
  为节点设置ACL权限
- 17.stat [-w] path
+ 19.stat [-w] path
  查看节点状态 -w 添加监听
- 18.sync path
+ 20.sync path
   强制同步节点
 ```
 **node数据的增删改查**
